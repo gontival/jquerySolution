@@ -1,13 +1,10 @@
-﻿var txtInput;
-var txtResult;
+﻿/// <reference path="_references.js" />
 
 function initialize() {
-    txtInput = $('#txtInput');
-    txtResult = $('#txtResult');
     clear();
 }
 
 function clear() {
-    txtInput.val('0');
-    txtResult.val('0');
+    $('#txtInput').val('0');
+    $('#txtResult').val('0');
 }
