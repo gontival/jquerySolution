@@ -2,13 +2,12 @@
 var txtResult;
 
 function initialize() {
-    txtInput = document.getElementById('txtInput');
-    txtResult = document.getElementById('txtResult');
+    txtInput = $('#txtInput');
+    txtResult = $('#txtResult');
     clear();
 }
 
 function clear() {
-    txtInput.value = '0';
-    txtResult.value = '0';
+    txtInput.val('0');
+    txtResult.val('0');
 }
-

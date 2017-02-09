@@ -3,6 +3,6 @@
 test("Initialize Test", function () {
     expect(2);
     var expected = '0';
-    equal(txtInput.value, expected, 'Expected value: ' + expected + '  Actual value: ' + txtInput.value);
-    equal(txtResult.value, expected, 'Expected value: ' + expected + '  Actual value: ' + txtResult.value);
+    equal(txtInput.val(), expected, 'Expected value: ' + expected + '  Actual value: ' + txtInput.val());
+    equal(txtResult.val(), expected, 'Expected value: ' + expected + '  Actual value: ' + txtResult.val());
 });
